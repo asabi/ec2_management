@@ -29,7 +29,7 @@ def display_instances(instances):
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python instance_management.py <region> (default: ca-central-1)")
+        print("Usage: ec2.py <region> (default: ca-central-1)")
 
     region = sys.argv[1] if len(sys.argv) >= 2 else "ca-central-1"
 
